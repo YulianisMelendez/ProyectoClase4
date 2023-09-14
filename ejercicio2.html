@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <h1>Registration Form</h1>
+
+        User id: &nbsp;&nbsp; <input type="text" pattern="[0-9]{5,12}" autofocus required><br><br>
+
+        Password: &nbsp;&nbsp; <input type="password" pattern="{7,12}" required><br><br>
+
+        Name: &nbsp;&nbsp; <input type="text" pattern="[A-Z]{1}[a-z ]*" required><br><br>
+
+        Addres: &nbsp;&nbsp; <input type="email"><br><br>
+
+        Country:
+        <select name="" id="" required>
+            <option value="">select an option</option>
+            <option value="">Colombia</option>
+            <option value="">Brazil</option>
+            <option value="">Chile</option>
+            <option value="">Argentina</option>
+            <option value="">Estados Unidos</option>
+        </select><br><br>
+
+        ZIP Code: &nbsp;&nbsp;<input type="number" required><br><br>
+
+        Email: &nbsp;&nbsp;<input type="email" required><br><br>
+
+        Sex:
+        <input type="radio" name="sexo" required> Male
+        <input type="radio" name="sexo" required>Female <br><br>
+
+        Language:
+        <input type="checkbox"  checked required> English
+        <input type="checkbox"> Non English <br><br>
+
+        About: <textarea name="about" id="about" cols="30" rows="10" style="vertical-align: top;"></textarea><br><br>
+
+        <button >Submit</button>
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
